@@ -19,6 +19,13 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.rect {
+  background-color: #E86A6C;
+  height: 50px;
+  width: 1000px;
+  border-bottom:1px solid #313030;
+}
+
 
 /*
  * Base structure
