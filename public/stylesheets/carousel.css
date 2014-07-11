@@ -87,15 +87,17 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin-top: 40px; /* Space out the Bootstrap <hr> more */
-  margin-bottom: 40px;
+  margin-top: 30px; /* Space out the Bootstrap <hr> more */
+  margin-bottom: 30px;
+
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: +1px;
+  padding-left: 20px;
 }
 
 
@@ -143,6 +145,7 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 }

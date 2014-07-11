@@ -52,6 +52,11 @@ app.get('/cute', function (req, res)
     res.render('cute.html');
 });
 
+app.get('/contributors', function (req, res)
+{
+    res.render('contributors.html');
+});
+
 /*
 app.use('/', routes.index);
 app.use('/hacks', hacks);
