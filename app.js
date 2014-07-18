@@ -36,7 +36,7 @@ app.get('/', function (req, res)
 
 app.get('/hacks', function (req, res)
 {
-    res.render('hacks.html');
+    res.render('http://hacks.html');
 });
 app.get('/chessy', function (req, res)
 {
