@@ -1,170 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="images/favicon.ico">
 
-    <title>metacupcake</title>
+    <title>Metacupcake</title>
 
     <!-- Bootstrap core CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet">
 
-    <link href="stylesheets/carousel.css" rel="stylesheet">
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- Add custom CSS here -->
+    <link href="stylesheets/stylish-portfolio.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<body>
 
-    <!-- Custom styles for this template -->
-  
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container-brand">
+    <!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="http://metacupcake.com">Metacupcake</a>
+            </li>
+            <li><a href="/">Home</a>
+            </li>
+            <li><a href="/terms">Contributors</a>
+            </li>
+            <li><a href="#portfolio">Projects</a>
+            </li>
+            <li><a href="#coming-soon">Coming soon...</a>
+            </li>
+            <li><a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-              </button>
-              <a class="navbar-brand" href="/">MetaCupcake</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="mailto:mwbetts@ucsc.edu"> Contact</a></li>
-                <li><a href="terms">Contributors</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <h1></h1>
+            <h3>
+                <em></em>
+                <em></em></h3>
+            
         </div>
-      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <!-- Intro -->
+    <div id="about" class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <p class="lead">The universe is cute.</p>
+                    <h1>So are you.</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Intro -->
+
+    <!-- Services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2><p class="lead">We make things</p></h2>
+                    <hr>
+                </div>
+           
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+        </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2>Projects</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        <a href="/chessy">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                        </a>
+                        <h4>Chessy the bus sessions</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        <a href="https://www.youtube.com/playlist?list=PLa3y20ceH3J4gYImNRTxVDMBlfvf9ANBR">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                        </a>
+                        <h4>50 Shades of Mike</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        <a href="/hacks">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                        </a>
+                        <h4>Hacks for Hickies</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        <a href="http://bluemandude.paperplane.io/">
+                            <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                        </a>
+                        <h4>Web Comics (newborn)</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2><q>I think too much during sex, therefore I am too much during sex.</q></h2>
+                    <p><i>-Michael Betts</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Call to Action -->
+
+
+
+        <div id="coming-soon" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <h2 class="lead">Coming soon...</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        
+                            <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
+                        
+                        <h4>Humans of the World.</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        
+                            <img class="img-portfolio img-responsive" src="img/portfolio-6.jpg">
+                        
+                        <h4>A Man's Perspective</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <div class="portfolio-item">
+                        
+                            <img class="img-portfolio img-responsive" src="img/portfolio-7.jpg">
+                        
+                        <h4>Beats4Jesus</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="portfolio-item">
+                        
+                            <img class="img-portfolio img-responsive" src="img/portfolio-8.jpg">
+                        
+                        <h4>In the Woods <u>with</u> a Cellphone</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators 
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      -->
-    
-      <div class="carousel-inner">
-        <div class="item active">
-          <!--<img src="images/background1.jpg" alt="First slide">-->
-          <img src="images/metacupcakelogo.jpg" alt="cute">
-          <div class="container">
-            <div class="carousel-caption">
-              <h2>Our universe is cute</h2>
-              <p></p>
-              <p>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="E5HHYWN992XLC">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <a href="http://www.youtube.com/channel/UCpuxvY_WEGAPEvB771-MsfA/videos"><img src="images/youtube.png"></a>
+                    <a href="https://www.facebook.com/michael.william.betts"><img src="images/facebook-128.png"></a>
+                    <a href="https://soundcloud.com/metacupcake"><img src="images/soundcloud-128.png"></a>
+                    <a href="https://twitter.com/Michaelflops"><img src="images/twitter-3-128.png"></a>
+                    <a href="mailto:mwbetts@ucsc.edu"><img src="images/brain-128.png"></a>
+                    <a href="mailto:mwbetts@ucsc.edu"><img src="images/woman-128.png"></a>
 
-              </p>
+                    <div class="top-scroll">
+                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+                    </div>
+                    <hr>
+                    <p>(no)Copyright &copy; Metacupcake 2013</p>
+                </div>
             </div>
-          </div>
         </div>
-              <hr class="featurette-divider">
+    </footer>
+    <!-- /Footer -->
 
-        <!--
-        <div class="item">
-          <img data-src="images/front2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>You are cute</h1>
-              <p>Our </p>
-              <p><a class="btn btn-lg btn-primary" href="cute.html" role="button">Have a looksy</a></p>
-            </div> 
-          </div>
-        </div>
-        <div class="item">
-          <img data-src="images/front1.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Make cute things</h1>
-              <p>You are going to be okay</p>
-              <p><a class="btn btn-lg btn-primary" href="cute.html" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-  
+    <!-- JavaScript -->
+    <script src="javascripts/jquery-1.10.2.js"></script>
+    <script src="javascripts/bootstrap.js"></script>
 
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+</body>
 
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/asd.jpg" height="170" width="270" alt="Generic placeholder image">
-          <h2>Fifty Shades of Mike</h2>
-          <p>A video series of the many different sides of Michael Betts</p>
-          <p><a class="btn btn-primary" href="https://www.youtube.com/playlist?list=PLa3y20ceH3J4gYImNRTxVDMBlfvf9ANBR&feature=mh_lolz" role="button">Watch here &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/bussy.JPG" height="170" width="270" alt="Generic placeholder image">
-          <h2>Chessy The Bus</h2>
-          <p>Films of independent musicians/artists documented in a 1971 Volkswagon Bus</p>
-          <p><a class="btn btn-primary" href="chessy" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="images/gma.jpg" height="170" width="220" alt="Generic placeholder image">
-          <h2>Hacks for Hickies</h2>
-          <p>Using 21st Century methods to get with pretty ladies (no guarantees)</p>
-          <p><a class="btn btn-primary" href="hacks" role="button">Beam me up Scotty! &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-      
-      <div class="rect"></div>
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-        <footer>
-          <p class="pull-right"><a href="/">Back to top</a></p>
-          <p>&copy; 2014 Company, Inc. &middot; <a href="cute">Privacy</a> &middot; <a href="cute">Terms</a></p>
-        </footer>
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  </body>
 </html>
